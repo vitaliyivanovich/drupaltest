@@ -133,7 +133,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/sites/default/libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -143,11 +143,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/sites/default/libraries" />
       <recent name="$PROJECT_DIR$/web/themes/custom/ww_bootstrap4/assets/img" />
       <recent name="$PROJECT_DIR$/web/themes/custom/ww_bootstrap4/templates/block" />
       <recent name="$PROJECT_DIR$/web/themes/custom/ww_bootstrap4/css" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/ww_bootstrap4/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/sites/default" />
@@ -178,7 +178,7 @@
       <workItem from="1602833967714" duration="13345000" />
       <workItem from="1603183177323" duration="13000" />
       <workItem from="1603183217327" duration="4625000" />
-      <workItem from="1603261169425" duration="4093000" />
+      <workItem from="1603261169425" duration="7257000" />
     </task>
     <servers />
   </component>
