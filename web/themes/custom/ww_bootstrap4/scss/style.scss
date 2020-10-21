@@ -1,0 +1,41 @@
+// Include custom sub theme.
+@import 'custom/variables';
+@import 'custom/mixins';
+//@import 'custom/mixins/misc';
+//@import 'custom/misc';
+
+// Include bootstrap variables definitions overrides.
+@import 'overrides/variables';
+
+// Include parent theme with all things Bootstrap for full override.
+// Relative path to this styles.scss file.
+// Example: @import "../../../../../themes/contrib/bootstrap4/scss/style";
+@import "../../../../themes/contrib/bootstrap4/scss/style";
+// OR to go back to Bootstrap 4.4.1
+//@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-4";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import '../fonts/avenir/avenir.css';
+
+@import "custom/global_overrides";
+
+@import 'custom/regions/header';
+
+@import "custom/regions/about";
+
+@import "custom/regions/service";
+
+@import "custom/regions/projects";
+
+@import "custom/regions/team";
+
+@import "custom/regions/news";
+
+@import "custom/regions/slider";
+
+@import "custom/regions/footer";
+
+@import "custom/pages/contact";
+
+@import 'custom/breakpoints';

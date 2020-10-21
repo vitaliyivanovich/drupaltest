@@ -1,0 +1,31 @@
+name: ww_bootstrap4
+type: theme
+description: 'SUBTHEME bootstrap'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap4
+
+# Stylesheets.
+#stylesheets-remove:
+#  - '@bootstrap4/css/style.css'
+
+# Libraries.
+libraries:
+  - ww_bootstrap4/global-styling
+  - ww_bootstrap4/global-scripts
+# Regions.
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  header_bottom: 'header_bottom'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  section_projects: 'section_projects'
+  section_team: 'section_team'
+  section_news: 'section_news'
+  section_clients: 'section_clients'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

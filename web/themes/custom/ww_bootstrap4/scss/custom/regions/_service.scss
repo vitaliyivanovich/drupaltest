@@ -1,0 +1,52 @@
+/* /////////////////////////service///////////////////////////////// */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+#block-views-block-service-view-block-1 {
+  margin-top: 96px;
+}
+
+.service_view_wrapper {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .img_wrapper {
+    width: 135px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.service_view_wrapper .btn {
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+.view-service-view {
+  margin-top: 87px;
+}
+.service_view_wrapper h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 30px;
+  letter-spacing: 0.35px;
+  a {
+    color: $header;
+  }
+}
+
+.service_view_wrapper p {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: -8px;
+  line-height: 1.2;
+  color: lightgray;
+  margin-bottom: 22px;
+}

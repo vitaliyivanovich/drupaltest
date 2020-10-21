@@ -1,0 +1,17 @@
+/*/////////////////////slider////////////////////////*/
+.region-section-clients {
+  margin-top: 30px;
+}
+
+.slider-item {
+  max-width: 20%;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.slick-slide {
+  &:focus, a {
+    outline: none;
+  }
+}

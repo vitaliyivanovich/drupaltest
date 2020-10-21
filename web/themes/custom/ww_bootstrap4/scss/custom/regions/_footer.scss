@@ -1,0 +1,16 @@
+/*//////////////////footer//////////////////////////*/
+footer .region-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: $footer;
+  padding: 0;
+  .block-system-branding-block {
+    margin-left: -15px;
+  }
+}
+footer.footer-light {
+  padding: 0;
+  background-color: $footer;
+}

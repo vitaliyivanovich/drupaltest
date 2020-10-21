@@ -1,0 +1,123 @@
+body {
+  font-family: 'Avenir', sans-serif;
+}
+/*///////////drupal page title////////////////////*/
+.page-title {
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 600;
+  font-size: 34px;
+  margin-top: 20px;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    right: calc(50% - 50px);
+    width: 100px;
+    height: 5px;
+    background-color: lightgrey;
+  }
+}
+
+/*///bootstrap_region///*/
+.region-content {
+  padding: 0;
+}
+/*///ajax animation///*/
+.ajax-progress-throbber {
+  display: none;
+}
+
+
+/*////////////////////////////////view_title////////////////////////////////////////////*/
+.block-views>h2:first-child, .main_view_header h2  {
+  position: relative;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: $header;
+}
+.block-views>h2:first-child:before, .block-views>h2:first-child:after, .main_view_header h2:before, .main_view_header h2:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: lightgrey;
+}
+.block-views>h2:first-child:before, .main_view_header h2:before {
+  margin-left: -53%;
+  text-align: right;
+}
+.block-views>h2:first-child:after, .main_view_header h2:after {
+  margin-left: 3%;
+}
+
+.block-views>h2:first-child {
+  color: $header;
+}
+
+
+/*///////////////button////////////////////////*/
+
+.btn {
+  border-radius: 0;
+  background-color: $mainblue;
+  border-color: $mainblue;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 4px 8px;
+  margin-left: 1px;
+  letter-spacing: -0.15px;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+/*///////////////////Bootstrap PAGER OVERRIDE/////////////////////*/
+
+
+.pager__item {
+  background-color: transparent !important;
+  border: none;
+}
+.btn.btn-secondary.pager__item.active.btn.btn-light {
+  background-color: lightgrey !important;
+  border-radius: 50% !important;
+  min-width: 30px;
+}
+
+.section_projects{
+  .pager {
+    margin-top: 9px;
+    margin-bottom: 48px;
+    ul {
+      li {
+        a {
+          span {
+            font-size: 24px;
+            color: $header;
+          }
+        }
+      }
+    }
+  }
+  .pager__items {
+    display: block;
+  }
+}
+/*////////////////////////Node Content///////////////////////////////*/
+.node__content {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
