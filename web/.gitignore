@@ -3,15 +3,22 @@
 # earlier versions of Drupal are tracked in `community/PHP/`
 
 # Ignore configuration files that may contain sensitive information
-/sites/*/*settings*.php
+# /sites/*/*settings*.php
 /sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
-/sites/*/files
+/sites/default/files/*
 /sites/*/public
 /sites/*/private
 /sites/*/files-public
 /sites/*/files-private
+
+!/sites/default/files/2020-09
+!/sites/default/files/2020-10
+!/sites/default/files/pictures
+!/sites/default/files/styles
+!/sites/default/files/main_logo.png
+!/sites/default/files/main_logo_favicon.png
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
